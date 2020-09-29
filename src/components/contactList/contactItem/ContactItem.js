@@ -9,7 +9,7 @@ const ContactItem = ({ name, number, id, onRemoveContact }) => {
       <li className={styles.listItem}>
         {name}: {number}
         <button type="button" onClick={onRemoveContact} name={id}>
-          Delite
+          Delete
         </button>
       </li>
     </>
