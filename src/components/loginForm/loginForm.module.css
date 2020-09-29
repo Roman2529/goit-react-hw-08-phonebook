@@ -1,0 +1,75 @@
+.loginBox {
+  position: relative;
+  margin: 0 auto;
+
+  width: 400px;
+  padding: 40px;
+
+  background: rgba(43, 42, 42, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.loginBox h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: rgb(6, 17, 170);
+  text-align: center;
+}
+
+.loginBox .userBox {
+  position: relative;
+}
+
+.loginBox .userBox input {
+  width: 100%;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.loginBox .userBox label {
+  font-size: 12px;
+  color: #03f46f;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.loginBox .userBox input:focus ~ label,
+.loginBox .userBox input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03f46f;
+  font-size: 12px;
+}
+
+.loginBox form a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 10px;
+  position: relative;
+  color: white;
+  font-size: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(78, 39, 252, 0.4);
+  border-radius: 7px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.loginBox a:hover {
+  background: rgba(59, 30, 189, 0.4);
+}
+
+.loginBox a span {
+  position: absolute;
+  display: block;
+}

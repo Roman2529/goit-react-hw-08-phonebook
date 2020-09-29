@@ -1,0 +1,54 @@
+.boxContact {
+  display: flex;
+  justify-content: center;
+}
+
+.boxContact h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: rgb(6, 17, 170);
+  text-align: center;
+}
+
+label {
+  color: #03f46f;
+  font-size: 12px;
+  margin-left: 30px;
+}
+
+.boxContact form {
+  padding: 20px;
+}
+
+.formContact {
+  background: rgba(68, 60, 60, 0.685);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 7px;
+}
+.formContact input {
+  font-size: 14px;
+  color: #fff;
+
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+}
+
+.formContact button {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 10px;
+  position: relative;
+  color: white;
+  font-size: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(78, 39, 252, 0.4);
+  border-radius: 3px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

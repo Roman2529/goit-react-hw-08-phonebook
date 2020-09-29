@@ -1,0 +1,41 @@
+.contactsTitle {
+  margin-bottom: 15px;
+}
+
+.boxContact {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.boxFilter label {
+  width: auto;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.boxInput {
+  width: 580px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 10px;
+  border: 2px solid #324b4e;
+  background: #32363293;
+  outline: none;
+  position: relative;
+  transition: 0.3s linear;
+}
+
+.boxInput input:focus {
+  width: 300px;
+}
+
+.boxSubmit {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: -2px;
+  right: 0;
+}
